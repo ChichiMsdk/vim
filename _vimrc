@@ -43,9 +43,10 @@ let mapleader = " "
 "remove hl
 nnoremap <silent><ESC> :noh<CR>
 
+nnoremap <silent><Leader>t :vert term<CR>
 nnoremap <silent><Leader>w :w<CR>
 nnoremap <silent><Leader>a :q<CR>
-nnoremap <silent><Leader>vv :Ex<CR>
+nnoremap <silent><Leader>v :Ex<CR>
 nnoremap <silent><Leader>vs :vs<CR>
 nnoremap <silent><Leader>vh :sp<CR>
 nnoremap <silent><Leader>n :set nu!<CR>
@@ -55,6 +56,7 @@ nnoremap <silent><Leader>bd :bd<CR>
 nnoremap <silent><Leader>bn :bn<CR>
 nnoremap <silent><Leader>bm :bp<CR>
 
+tnoremap <silent><Leader>a iexit<CR>
 tnoremap <ESC> <C-\><C-n>
 
 "copy paste ctrl c ctrl v to os
