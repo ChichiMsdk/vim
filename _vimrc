@@ -53,7 +53,7 @@ nnoremap <silent><Leader>r :set rnu!<CR>
 
 nnoremap <silent><Leader>bd :bd<CR>
 nnoremap <silent><Leader>bn :bn<CR>
-nnoremap <silent><Leader>bp :bp<CR>
+nnoremap <silent><Leader>bm :bp<CR>
 
 tnoremap <ESC> <C-\><C-n>
 
@@ -70,8 +70,8 @@ nnoremap <silent><C-k> :wincmd k<CR>
 nnoremap <silent><C-j> :wincmd j<CR>
 nnoremap <silent><C-h> :wincmd h<CR>
 nnoremap <silent><C-l> :wincmd l<CR>
-nnoremap <C-d> <C-d>M
-nnoremap <C-u> <C-u>M
+nnoremap <C-d> <C-d>zz
+nnoremap <C-u> <C-u>zz
 
 " Function to dynamically set color column
 function! SetColorColumn()
